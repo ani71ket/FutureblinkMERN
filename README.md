@@ -53,4 +53,14 @@ npm run dev
 
 `POST /api/schedule`
 
+**Body:**
+```json
+{
+  "email": "user@example.com",
+  "subject": "Subject here",
+  "body": "Email content here",
+  "time": "2025-04-06T12:00:00Z"
+}
 ```
+
+
